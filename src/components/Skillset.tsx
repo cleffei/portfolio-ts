@@ -6,6 +6,7 @@ import 'slick-carousel/slick/slick-theme.css';
 import HTML_logo from '../assets/html-5.svg';
 import CSS_logo from '../assets/css-3.svg';
 import JS_logo from '../assets/javascript.svg';
+import TS_logo from '../assets/typescript.svg';
 import Tailwind_logo from '../assets/tailwindcss-icon.svg';
 import React_logo from '../assets/react.svg';
 import Python_logo from '../assets/python.svg';
@@ -62,7 +63,7 @@ const Skillset: React.FC = () => {
                 />
                 <h5 className="text-lg font-bold">HTML / CSS</h5>
               </div>
-              <p className="text-sm p-4">
+              <p className="text-sm">
                 I have a strong grasp on the fundamentals of both HTML5 and
                 CSS3, giving me a strong footing for the foundational components
                 of web development.
@@ -78,7 +79,24 @@ const Skillset: React.FC = () => {
                 />
                 <h5 className="text-lg font-bold">JavaScript</h5>
               </div>
-              <p className="text-sm">
+              <p className="text-sm ">
+                Alongside HTML and CSS, I have a solid understanding of
+                JavaScript and feel comfortable using it. I am acclimated with
+                the functionality of JS post the ES 2015 update. I have used
+                JavaScript in both front and backend situations.
+              </p>
+            </div>
+
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+              <div className="flex justify-between">
+                <img
+                  src={TS_logo}
+                  className="w-16 h-16 -mt-4 drop-shadow-xl"
+                  alt="JAVASCRIPT"
+                />
+                <h5 className="text-lg font-bold">TypeScript</h5>
+              </div>
+              <p className="text-sm border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
                 Alongside HTML and CSS, I have a solid understanding of
                 JavaScript and feel comfortable using it. I am acclimated with
                 the functionality of JS post the ES 2015 update. I have used
