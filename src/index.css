@@ -1,5 +1,18 @@
 @import 'tailwindcss';
 
+html,
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
 #top-bar {
   transition: transform 0.5s ease-in-out;
 }
