@@ -80,7 +80,7 @@ const SharedMobilityAdventurePage: React.FC = () => {
               href="https://github.com/Conor-O-Mahony/SharedMobilityAdventure"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex items-center justify-center mb-10 p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 w-1/2 mx-auto md:mb-0"
+              className="flex items-center justify-center mb-10 p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition duration-300 w-1/2 mx-auto md:mb-0"
             >
               <FaGithub size={24} />
               <span className="ml-2">View on GitHub</span>
