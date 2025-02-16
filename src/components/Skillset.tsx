@@ -36,6 +36,7 @@ const Skillset: React.FC = () => {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          arrows: false,
         },
       },
     ],
@@ -96,11 +97,12 @@ const Skillset: React.FC = () => {
                 />
                 <h5 className="text-lg font-bold">TypeScript</h5>
               </div>
-              <p className="text-sm border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
-                Alongside HTML and CSS, I have a solid understanding of
-                JavaScript and feel comfortable using it. I am acclimated with
-                the functionality of JS post the ES 2015 update. I have used
-                JavaScript in both front and backend situations.
+              <p className="text-sm border rounded-lg p-5 mb-5 mt-5 bg-gray-200 drop-shadow-lg">
+                I have recently began learning TypeScript to extend my knowledge
+                further while I look for work! This portfolio site itself was my
+                first real project to use TypeScript proper. Adding onto what I
+                know about vanilla JavaScript, I hope to eventually focus more
+                and more on TypeScript.
               </p>
             </div>
 
