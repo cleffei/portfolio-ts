@@ -44,7 +44,7 @@ const TopBar: React.FC = () => {
         </li>
         <li>
           <a
-            href="#projects"
+            href="/#projects"
             className="text-amber-300 hover:bg-amber-400 hover:text-white rounded-md px-3 py-2"
           >
             PROJECTS
@@ -76,7 +76,7 @@ const TopBar: React.FC = () => {
         <NavLink to="/" className="text-amber-300" onClick={toggleHamMenu}>
           Home
         </NavLink>
-        <a href="#projects" className="text-amber-300" onClick={toggleHamMenu}>
+        <a href="/#projects" className="text-amber-300" onClick={toggleHamMenu}>
           Projects
         </a>
         <NavLink
