@@ -9,6 +9,7 @@ import React from 'react';
 import HomePage from './components/pages/HomePage';
 import MainLayout from './layouts/MainLayout';
 import NotFoundPage from './components/pages/NotFoundPage';
+import AboutMePage from './components/pages/AboutMePage';
 import SharedMobilityAdventurePage from './components/pages/SharedMobilityAdventurePage';
 import ClearPathNYCPage from './components/pages/ClearPathNYCPage';
 import DublinBikesPage from './components/pages/DublinBikesPage';
@@ -23,6 +24,7 @@ const App: React.FC = () => {
         <Route index element={<HomePage />} />
         <Route path="projects" element={<HomePage />} />
         <Route path="*" element={<NotFoundPage />} />
+        <Route path="/about-me" element={<AboutMePage />} />
         <Route
           path="/projects/shared-mobility-adventure"
           element={<SharedMobilityAdventurePage />}

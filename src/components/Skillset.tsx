@@ -50,7 +50,7 @@ const Skillset: React.FC = () => {
             Technological Skillset
           </h2>
           <Slider {...settings} className="mt-8 md:mt-24">
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={HTML_logo}
@@ -71,7 +71,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={JS_logo}
@@ -88,7 +88,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={TS_logo}
@@ -97,7 +97,7 @@ const Skillset: React.FC = () => {
                 />
                 <h5 className="text-lg font-bold">TypeScript</h5>
               </div>
-              <p className="text-sm border rounded-lg p-5 mb-5 mt-5 bg-gray-200 drop-shadow-lg">
+              <p className="text-sm">
                 I have recently began learning TypeScript to extend my knowledge
                 further while I look for work! This portfolio site itself was my
                 first real project to use TypeScript proper. Adding onto what I
@@ -106,7 +106,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={Tailwind_logo}
@@ -123,7 +123,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={React_logo}
@@ -141,7 +141,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={Python_logo}
@@ -158,7 +158,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={Ruby_logo}
@@ -174,7 +174,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={Java_logo}
@@ -192,7 +192,7 @@ const Skillset: React.FC = () => {
               </p>
             </div>
 
-            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-500 mt-12 border-10 border-gray-700 w-80 h-70">
+            <div className="flex flex-col items-center p-6 space-y-6 rounded-lg bg-slate-400 mt-12 border-10 border-gray-700 w-80 h-70">
               <div className="flex justify-between">
                 <img
                   src={Node_logo}
