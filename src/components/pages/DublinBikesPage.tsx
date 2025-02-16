@@ -128,6 +128,7 @@ const DublinBikesPage: React.FC = () => {
           captions={{ showToggle: true, descriptionTextAlign: 'start' }}
           open={index >= 0}
           close={() => setIndex(-1)}
+          index={index}
           slides={[
             {
               ...photos[0],
