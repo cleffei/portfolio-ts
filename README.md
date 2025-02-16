@@ -5,3 +5,15 @@ This is a rework of my original portfolio project, now ported into TypeScript an
 All features within the [original build](https://github.com/cleffei/portfolio) are present in this build + more features not available in the prior build!
 
 This project acts as my introduction to TypeScript. Expect updates pertaining to new projects I complete to be added periodically!
+
+## Main Technologies
+
+- React + TypeScript
+- TailwindCSS
+
+## React Packages Used:
+
+- React Slick
+- Yet Another React Lightbox
+- React Photo Album
+- React Icons
