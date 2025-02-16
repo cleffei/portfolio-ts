@@ -30,7 +30,7 @@ const Hero: React.FC = () => {
               <br />
               <p className="max-w-full text-center mb-10 md:text-left">
                 Prior to this, I had completed a Bachelor's degree in Creative
-                Media Technologies, achieving a first className honour's
+                Media Technologies, achieving a first class honour's
                 classification from the Dún Laoghaire Institute of Art, Design
                 and Technology (IADT). I feel that by combining these two
                 academic backgrounds, I could work towards becoming a frontend
