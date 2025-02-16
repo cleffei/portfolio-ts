@@ -54,7 +54,7 @@ const DublinBikesPage: React.FC = () => {
     <section className="bg-gray-600">
       <div className="container flex flex-col bg-gray-600 items-center px-6 mx-auto mt-26 md:mt-16 space-y-0 md:space-y-0 md:flex-row md:flex-wrap">
         <div className="flex flex-col mb-32 space-y-12 md:w-1/2">
-          <h1 className="max-w-full text-4xl md:text-6xl lg:text-7xl lg:pl-15 lg:pt-35 font-bold text-amber-300 italic text-center whitespace-nowrap md:whitespace-normal text-wrap-balance">
+          <h1 className="max-w-full text-4xl md:text-6xl lg:text-7xl lg:pl-15 lg:pt-35 font-bold text-amber-300 italic text-center md:text-center break-words">
             Dublinbikes Availability
           </h1>
 
