@@ -10,7 +10,7 @@ const NotFoundPage: React.FC = () => {
       <p className="text-xl mb-5 text-amber-400">This page does not exist</p>
       <Link
         to="/"
-        className="text-white bg-amber-500 hover:bg-amber-400 rounded-md px-3 py-2 mt-4"
+        className="text-white bg-amber-500 hover:bg-amber-400 transition duration-300 rounded-md px-3 py-2 mt-4"
       >
         Go Back
       </Link>

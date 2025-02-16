@@ -23,8 +23,8 @@ const TopBar: React.FC = () => {
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     isActive
-      ? 'bg-amber-500 text-white hover:bg-amber-400 hover:text-white rounded-md px-3 py-2'
-      : 'text-amber-300 hover:bg-amber-400 hover:text-white rounded-md px-3 py-2';
+      ? 'bg-amber-500 text-white hover:bg-amber-400 hover:text-white rounded-md transition duration-300 px-3 py-2'
+      : 'text-amber-300 hover:bg-amber-400 hover:text-white rounded-md transition duration-300 px-3 py-2';
 
   return (
     <div
@@ -45,7 +45,7 @@ const TopBar: React.FC = () => {
         <li>
           <a
             href="/#projects"
-            className="text-amber-300 hover:bg-amber-400 hover:text-white rounded-md px-3 py-2"
+            className="text-amber-300 hover:bg-amber-400 transition duration-300 hover:text-white rounded-md px-3 py-2"
           >
             PROJECTS
           </a>
