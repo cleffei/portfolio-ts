@@ -1,8 +1,7 @@
-# React + Vite
+# Portfolio V2 (React+TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a rework of my original portfolio project, now ported into TypeScript and working with .tsx files within React.
 
-Currently, two official plugins are available:
+All features within the [original build](https://github.com/cleffei/portfolio) are present in this build + more features not available in the prior build!
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project acts as my introduction to TypeScript. Expect updates pertaining to new projects I complete to be added periodically!
