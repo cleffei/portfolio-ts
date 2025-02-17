@@ -17,7 +17,7 @@ const Hero: React.FC = () => {
           </div>
 
           <div className="md:w-1/2">
-            <div className="border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
+            <div className="border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
               <h1 className="text-4xl font-bold text-center italic mb-10 md:text-left">
                 About Me
               </h1>

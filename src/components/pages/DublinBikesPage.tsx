@@ -73,7 +73,7 @@ const DublinBikesPage: React.FC = () => {
             <FaGithub size={24} />
             <span className="ml-2">View on GitHub</span>
           </a>
-          <div className="border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
+          <div className="border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
             <h1 className="text-4xl font-bold text-center italic mb-10 md:text-left">
               About This Project...
             </h1>
@@ -106,7 +106,7 @@ const DublinBikesPage: React.FC = () => {
           <h2 className="text-3xl font-bold italic text-amber-200 mb-10 text-left md:text-7xl">
             My Role
           </h2>
-          <p className="max-w-6xl text-center md:text-left border rounded-lg p-5 mt-5 bg-gray-200">
+          <p className="max-w-6xl text-center md:text-left border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
             In this project, I held the responsibility of creating the core
             design you see in use, as well as working alongside the Frontend
             Lead to create the frontend UI, working closely with React, vanilla

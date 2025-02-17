@@ -86,7 +86,7 @@ const SharedMobilityAdventurePage: React.FC = () => {
               <span className="ml-2">View on GitHub</span>
             </a>
           </div>
-          <div className="border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
+          <div className="border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
             <h1 className="text-4xl font-bold text-center mb-5 md:mb-10 md:text-left">
               About This Project...
             </h1>
@@ -118,7 +118,7 @@ const SharedMobilityAdventurePage: React.FC = () => {
             <h2 className="text-3xl font-bold italic text-amber-200 mb-10 text-left md:text-7xl">
               My Role
             </h2>
-            <p className="max-w-6xl text-center md:text-left border rounded-lg p-5 mt-5 bg-gray-200">
+            <p className="max-w-6xl text-center md:text-left border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
               For this project, I took on a primarily frontend role, creating
               many of the visual aspects you see within the game, such as the
               HUD, the interactive buttons as well as their hover states. I was

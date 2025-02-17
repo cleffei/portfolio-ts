@@ -8,7 +8,7 @@ const AboutMePage: React.FC = () => {
           <h2 className="text-3xl font-bold italic text-amber-200 mb-10 text-left md:text-7xl">
             About Me & How I Got Here
           </h2>
-          <p className="max-w-6xl text-center md:text-left border rounded-lg p-5 mt-5 bg-gray-200">
+          <p className="max-w-6xl text-center md:text-left border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
             Thank-you for checking out my portfolio site! My name is Adam
             Herdman, I am a recent graduate of University College Dublin's
             Master's Computer Science conversion course, having achieved a 2:1

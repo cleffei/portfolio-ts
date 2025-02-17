@@ -78,7 +78,7 @@ const CalculatorPage: React.FC = () => {
               <span className="ml-2">View a Live Demo</span>
             </a>
           </div>
-          <div className="border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
+          <div className="border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
             <h1 className="text-4xl font-bold italic text-center md:mb-10 md:text-left">
               About This Project...
             </h1>

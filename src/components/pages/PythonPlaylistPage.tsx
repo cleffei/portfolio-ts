@@ -91,7 +91,7 @@ const PythonPlaylistPage: React.FC = () => {
             <FaGithub size={24} />
             <span className="ml-2">View on GitHub</span>
           </a>
-          <div className="border rounded-lg p-5 mt-5 bg-gray-200 drop-shadow-lg">
+          <div className="border rounded-lg p-5 mt-5 bg-gradient-to-b from-gray-200 to-gray-400 drop-shadow-lg opacity-90">
             <h1 className="text-4xl font-bold text-center mb-10 md:text-left">
               About This Project...
             </h1>
