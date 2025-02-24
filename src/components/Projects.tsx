@@ -6,6 +6,7 @@ import DublinBikesLogo from '../assets/DublinBikesLogo.png';
 import PythonPlaylistLogo from '../assets/PythonPlaylistLogo.png';
 import PokedexLogo from '../assets/PokedexLogo.png';
 import JSCalcLogo from '../assets/JSCalcLogo.png';
+import TwitchEmoteLogo from '../assets/TwitchEmoteLogo.png';
 
 const Projects: React.FC = () => {
   return (
@@ -82,6 +83,17 @@ const Projects: React.FC = () => {
                 <img
                   className="border border-amber-500 rounded-lg"
                   src={JSCalcLogo}
+                />
+              </Link>
+            </div>
+            <div>
+              <Link
+                to="/projects/twitch_fetch"
+                className="text-indigo-500 hover:text-indigo-600 items-center"
+              >
+                <img
+                  className="border border-amber-500 rounded-lg"
+                  src={TwitchEmoteLogo}
                 />
               </Link>
             </div>

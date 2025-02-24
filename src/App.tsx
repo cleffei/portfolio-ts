@@ -16,6 +16,7 @@ import DublinBikesPage from './components/pages/DublinBikesPage';
 import PythonPlaylistPage from './components/pages/PythonPlaylistPage';
 import PokedexPage from './components/pages/PokedexPage';
 import CalculatorPage from './components/pages/CalculatorPage';
+import TwitchEmotePage from './components/pages/TwitchEmotePage';
 
 const App: React.FC = () => {
   const router = createBrowserRouter(
@@ -34,6 +35,7 @@ const App: React.FC = () => {
         <Route path="/projects/dublin-bikes" element={<DublinBikesPage />} />
         <Route path="/projects/pokédex" element={<PokedexPage />} />
         <Route path="/projects/js_calc" element={<CalculatorPage />} />
+        <Route path="/projects/twitch_fetch" element={<TwitchEmotePage />} />
       </Route>
     )
   );
