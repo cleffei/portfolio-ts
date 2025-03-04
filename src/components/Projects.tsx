@@ -7,6 +7,7 @@ import PythonPlaylistLogo from '../assets/PythonPlaylistLogo.png';
 import PokedexLogo from '../assets/PokedexLogo.png';
 import JSCalcLogo from '../assets/JSCalcLogo.png';
 import TwitchEmoteLogo from '../assets/TwitchEmoteLogo.png';
+import PokedexLogoReact from '../assets/PokedexLogoReact.png';
 
 const Projects: React.FC = () => {
   return (
@@ -94,6 +95,17 @@ const Projects: React.FC = () => {
                 <img
                   className="border border-amber-500 rounded-lg"
                   src={TwitchEmoteLogo}
+                />
+              </Link>
+            </div>
+            <div>
+              <Link
+                to="/projects/pokédex_react"
+                className="text-indigo-500 hover:text-indigo-600 items-center"
+              >
+                <img
+                  className="border border-amber-500 rounded-lg"
+                  src={PokedexLogoReact}
                 />
               </Link>
             </div>
