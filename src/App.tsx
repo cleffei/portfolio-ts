@@ -17,7 +17,7 @@ import PythonPlaylistPage from './components/pages/PythonPlaylistPage';
 import PokedexPage from './components/pages/PokedexPage';
 import CalculatorPage from './components/pages/CalculatorPage';
 import TwitchEmotePage from './components/pages/TwitchEmotePage';
-import PokedexReactPage from '@pages/PokedexReactPage';
+import PokedexReactPage from './components/pages/PokedexReactPage';
 
 const App: React.FC = () => {
   const router = createBrowserRouter(

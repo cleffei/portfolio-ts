@@ -15,7 +15,7 @@ import 'yet-another-react-lightbox/plugins/captions.css';
 import 'react-photo-album/rows.css';
 
 import PdexReactDemo from '../../assets/Pokedex_React_Demo.gif';
-import PdexReactMobileDemo from '../../assets/Pokex_React_Mobile_Demo.gif';
+import PdexReactMobileDemo from '../../assets/Pokedex_React_Mobile_Demo.gif';
 import PdexReactMobile from '../../assets/Pokedex_React_Mobile_View.png';
 import PdexReactMobileLandscape from '../../assets/Pokedex_React_Mobile_Landscape.png';
 
@@ -66,7 +66,7 @@ const PokedexReactPage: React.FC = () => {
         <div className="md:w-1/2">
           <div className="flex">
             <a
-              href="https://github.com/cleffei/twitch-emote-fetch"
+              href="https://github.com/cleffei/Pokedex_V2_React"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center mb-10 p-2 bg-gray-800 text-white rounded-full hover:bg-gray-700 transition duration-300 w-1/2 mx-auto md:mb-0"
@@ -75,7 +75,7 @@ const PokedexReactPage: React.FC = () => {
               <span className="ml-2">View on GitHub</span>
             </a>
             <a
-              href="https://twitch-emote-fetcher.netlify.app/"
+              href="https://rb-pokedex-react.netlify.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center justify-center mb-10 p-2 bg-orange-400 text-white rounded-full hover:bg-orange-300 transition duration-300 w-1/2 mx-auto md:mb-0"
